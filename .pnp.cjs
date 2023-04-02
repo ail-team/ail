@@ -40,6 +40,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:1.1.3"\
       ],\
       [\
+        "@heroicons/react",\
+        "virtual:2ef6bd4f9f429820b7e4c32d7a5c4095acb7bc73c3283b9e3226c2842af6534ebd3b976ec695a4a083af562cf049a73994bbefd3a09fc9a9b3a6ef994200272c#npm:2.0.17"\
+      ],\
+      [\
         "@humanwhocodes/config-array",\
         "npm:0.11.8"\
       ],\
@@ -1641,6 +1645,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@heroicons/react", [\
+        ["npm:2.0.17", {\
+          "packageLocation": "./.yarn/cache/@heroicons-react-npm-2.0.17-b266f18485-31677c9b95.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:2.0.17"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:2ef6bd4f9f429820b7e4c32d7a5c4095acb7bc73c3283b9e3226c2842af6534ebd3b976ec695a4a083af562cf049a73994bbefd3a09fc9a9b3a6ef994200272c#npm:2.0.17", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-81fd9e3a57/0/cache/@heroicons-react-npm-2.0.17-b266f18485-31677c9b95.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:2ef6bd4f9f429820b7e4c32d7a5c4095acb7bc73c3283b9e3226c2842af6534ebd3b976ec695a4a083af562cf049a73994bbefd3a09fc9a9b3a6ef994200272c#npm:2.0.17"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@humanwhocodes/config-array", [\
         ["npm:0.11.8", {\
           "packageLocation": "./.yarn/cache/@humanwhocodes-config-array-npm-0.11.8-7955bfecc2-0fd6b3c54f.zip/node_modules/@humanwhocodes/config-array/",\
@@ -1898,6 +1924,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/web/",\
           "packageDependencies": [\
             ["@subject/web", "workspace:apps/web"],\
+            ["@heroicons/react", "virtual:2ef6bd4f9f429820b7e4c32d7a5c4095acb7bc73c3283b9e3226c2842af6534ebd3b976ec695a4a083af562cf049a73994bbefd3a09fc9a9b3a6ef994200272c#npm:2.0.17"],\
             ["@next/font", "npm:13.1.6"],\
             ["@types/eslint", "npm:8.21.0"],\
             ["@types/node", "npm:18.13.0"],\
