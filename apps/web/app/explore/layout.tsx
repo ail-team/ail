@@ -1,3 +1,7 @@
-export default function BlogLayout({ children }: any) {
+import { PropsWithChildren } from 'react';
+
+interface ExploreLayoutProps extends PropsWithChildren {}
+
+export default function ExploreLayout({ children }: ExploreLayoutProps) {
   return <section>{children}</section>;
 }
