@@ -189,7 +189,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],\
       [\
         "@types/react-dom",\
-        "npm:18.0.10"\
+        "npm:18.2.6"\
       ],\
       [\
         "@types/scheduler",\
@@ -1945,7 +1945,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", "npm:8.21.0"],\
             ["@types/node", "npm:18.13.0"],\
             ["@types/react", "npm:18.0.27"],\
-            ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/react-dom", "npm:18.2.6"],\
             ["autoprefixer", "virtual:965a114b5784f842b5af561e7b027c5d9e4f22cd475c0c81758be5f57bb539299ed95c21912d969586b3a49e499c6e41fa859637852790d3286dec0292710096#npm:10.4.14"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-config-next", "virtual:965a114b5784f842b5af561e7b027c5d9e4f22cd475c0c81758be5f57bb539299ed95c21912d969586b3a49e499c6e41fa859637852790d3286dec0292710096#npm:13.1.6"],\
@@ -2365,10 +2365,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react-dom", [\
-        ["npm:18.0.10", {\
-          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.0.10-97fe360927-ff8282d500.zip/node_modules/@types/react-dom/",\
+        ["npm:18.2.6", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.6-7f191ee628-b56e42efab.zip/node_modules/@types/react-dom/",\
           "packageDependencies": [\
-            ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/react-dom", "npm:18.2.6"],\
             ["@types/react", "npm:18.0.27"]\
           ],\
           "linkType": "HARD"\
@@ -6228,7 +6228,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/fibers", null],\
             ["@types/opentelemetry__api", null],\
             ["@types/react", "npm:18.0.27"],\
-            ["@types/react-dom", "npm:18.0.10"],\
+            ["@types/react-dom", "npm:18.2.6"],\
             ["@types/sass", null],\
             ["busboy", "npm:1.6.0"],\
             ["caniuse-lite", "npm:1.0.30001450"],\
