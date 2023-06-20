@@ -27,4 +27,4 @@ jobs:
 
       - name: 'Build'
         run: |
-          yarn eds-wc build
+          yarn build
