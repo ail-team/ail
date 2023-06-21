@@ -6,7 +6,7 @@ import { GNB_ITEMS, type Item } from './contents';
 
 export const GNB = () => {
   return (
-    <div className="flex-row w-full h-20 absolute bottom-0 space-y-0 sm:w-20 flex justify-between items-center px-12 sm:px-0 sm:py-8 sm:space-y-8 bg-s-gray-100 sm:h-full sm:flex-col sm:static sm:justify-normal">
+    <div className="flex-row w-full h-20 absolute bottom-0 space-y-0 sm:w-20 flex justify-between items-center px-12 sm:px-0 sm:py-8 sm:space-y-8 bg-a-gray-100 sm:h-full sm:flex-col sm:static sm:justify-normal">
       {GNB_ITEMS.map(item => (
         <GNBItem key={item.slug} name={item.name} slug={item.slug} icon={item.icon} />
       ))}
