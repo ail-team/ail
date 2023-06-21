@@ -1,16 +1,17 @@
 import '@/styles/globals.css';
 import { PropsWithChildren } from 'react';
 import { GNB } from '@/common/components/GNB/GNB';
+import StyledComponentsRegistry from '@/lib/styled-component';
 
-interface RootLayoutProps extends PropsWithChildren {}
-
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="ko" className="[color-scheme:dark]">
       <head />
       <body className="flex h-screen bg-black">
-        <GNB />
-        {children}
+        <StyledComponentsRegistry>
+          <GNB />
+          {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
